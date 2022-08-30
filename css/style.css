@@ -26,7 +26,6 @@
 .container{
     width: 1200px;
     margin: 50px auto;
-    background-color: white;
 }
 
 .add-buttons{
@@ -56,6 +55,7 @@
 
 .list{
     background-color: white;
+    padding: 10px;
 }
 
 .editorial{
