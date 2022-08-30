@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: bold;
+    background-color: lightgray;
+  }
+/* HEADER */
+
+.header{
+    background-color: white;
+}
+
+.logo{
+    width: 100px;  
+}
+
+.logo-text{
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: transparent;
+}
+
+/* BODY */
+
+.container{
+    width: 1200px;
+    margin: 50px auto;
+    background-color: white;
+}
