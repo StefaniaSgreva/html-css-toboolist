@@ -25,10 +25,7 @@
 
 .container{
     width: 1200px;
-    padding: 50px 150px;
-    
-   
-    
+    padding: 50px 150px;  
 }
 
 .add-buttons{
@@ -52,6 +49,11 @@
     padding: 15px 20px;
     font-size: 16px;
     border-radius: 10px;
+}
+hr{
+    border: 2px solid lightgrey;
+    border-radius: 2px;
+    margin: 10px;
 }
 
 
