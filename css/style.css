@@ -32,6 +32,7 @@
 .add-buttons{
     background-color: white;
     padding: 20px;
+
 }
 .add-task{
     background-color: aqua;
@@ -52,14 +53,73 @@
     border-radius: 10px;
 }
 
-hr{
-    display: block;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    width: 1200px;
-}
+
 
 .list{
-    background-color: white;
-    padding-block-start: 10px;
+    background-color: brown;
+}
+
+.editorial{
+    background-color: rgb(36, 177, 233);
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    font-size: 14px;
+    border-radius: 15px;
+    margin: 5px;
+}
+
+.goals{
+    background-color: rgb(138, 36, 233);
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    font-size: 14px;
+    border-radius: 15px;
+    margin: 5px;
+}
+}
+
+.recruiting{
+    background-color: rgb(61, 179, 120);
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    font-size: 14px;
+    border-radius: 15px;
+    margin: 5px;
+}
+}
+
+.mobile{
+    background-color: rgb(236, 168, 41);
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    font-size: 14px;
+    border-radius: 15px;
+    margin: 5px;
+}
+}
+
+.website{
+    background-color: rgb(187, 81, 178);
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    font-size: 14px;
+    border-radius: 15px;
+    margin: 5px;
+}
+}
+
+.sales{
+    background-color: rgb(139, 201, 68);
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    font-size: 14px;
+    border-radius: 15px;
+    margin: 5px;
+}
 }
