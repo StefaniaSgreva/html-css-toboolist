@@ -45,8 +45,7 @@
 
 .add-section{
     background-color: white;
-    border-radius: 2px;
-    border-color: lightgray;
+    border: 2px solid lightgray;
     color: lightgray;
     padding: 15px 32px;
     font-size: 16px;
@@ -56,14 +55,15 @@
 
 
 .list{
-    background-color: brown;
+    background-color: white;
 }
 
 .editorial{
+    display: inline-block;
     background-color: rgb(36, 177, 233);
     border: none;
     color: white;
-    padding: 10px 15px;
+    padding: 9px 12px;
     font-size: 14px;
     border-radius: 15px;
     margin: 5px;
@@ -73,53 +73,54 @@
     background-color: rgb(138, 36, 233);
     border: none;
     color: white;
-    padding: 10px 15px;
+    padding: 9px 12px;
     font-size: 14px;
     border-radius: 15px;
     margin: 5px;
 }
-}
-
 .recruiting{
-    background-color: rgb(61, 179, 120);
+    background-color: rgb(34, 177, 141);
     border: none;
     color: white;
-    padding: 10px 15px;
+    padding: 9px 12px;
     font-size: 14px;
     border-radius: 15px;
     margin: 5px;
 }
-}
-
 .mobile{
-    background-color: rgb(236, 168, 41);
+    background-color: rgb(231, 161, 31);
     border: none;
     color: white;
-    padding: 10px 15px;
+    padding: 9px 12px;
     font-size: 14px;
     border-radius: 15px;
     margin: 5px;
 }
-}
-
 .website{
-    background-color: rgb(187, 81, 178);
+    background-color: rgb(214, 72, 160);
     border: none;
     color: white;
-    padding: 10px 15px;
+    padding: 9px 12px;
     font-size: 14px;
     border-radius: 15px;
     margin: 5px;
 }
+.sales{
+    background-color: rgb(149, 204, 59);
+    border: none;
+    color: white;
+    padding: 9px 12px;
+    font-size: 14px;
+    border-radius: 15px;
+    margin: 5px;
 }
 
-.sales{
-    background-color: rgb(139, 201, 68);
-    border: none;
-    color: white;
-    padding: 10px 15px;
-    font-size: 14px;
-    border-radius: 15px;
-    margin: 5px;
-}
-}
+
+
+
+
+
+
+
+
+
