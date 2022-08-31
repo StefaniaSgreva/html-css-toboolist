@@ -10,7 +10,7 @@
 body{
     background-color: lightcyan;
     font-family: Arial, Helvetica, sans-serif; /*sans-serif = senza grazie*/
-    font-weight: 500;
+    font-weight: 600;
 }
 
 /* COLOR */
@@ -69,10 +69,9 @@ main{
 
 .top{
     border-bottom: 2px solid lightcyan;
-    padding: 15px;
 }
 
-.top .todolist{
+.top, .todolist{ /*N.B. mettere la virgola tra le varie classi alle quali applicare lo stile!*/
     padding: 20px 40px;
 }
 
@@ -97,7 +96,7 @@ h3{
 
 li{
     list-style: none;
-    margin-top: 20px;
+    margin-top: 25px;
 }
 
 .tag{
@@ -109,12 +108,12 @@ li{
 
 .circle{
     display: inline-block;
-    width: 25px;
-    height: 25px;
+    width: 20px;
+    height: 20px;
     border: 1px solid mediumaquamarine;
     color: mediumaquamarine;
     text-align: center;
-    line-height: 25px;
+    line-height: 20px;
     border-radius: 50%;
 }
 
