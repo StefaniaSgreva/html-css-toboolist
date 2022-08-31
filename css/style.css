@@ -8,8 +8,9 @@
     background-color: lightgrey;
 } */
 body{
-    background-color: lightgray;
-    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightcyan;
+    font-family: Arial, Helvetica, sans-serif; /*sans-serif = senza grazie*/
+    font-weight: 500;
 }
 
 /* COLOR */
@@ -35,7 +36,7 @@ body{
 }
 
 .website{
-    background-color: fuchsia;
+    background-color: rgb(233, 109, 233);
 }
 
 .sales{
@@ -49,7 +50,7 @@ header{
     padding: 10px;
 }
 
-header img{
+header img{ /*la classe viene applicata a tutte le img dentro header*/
     vertical-align: middle;
 }
 h1{
@@ -61,13 +62,13 @@ h1{
 
 main{
     width: 70%;
-    margin: 40px auto;
-    border-radius: 10px;
+    margin: 50px auto;
+    border-radius: 5px;
     color: #444;
 }
 
 .top{
-    border-bottom: 2px solid lightgrey;
+    border-bottom: 2px solid lightcyan;
     padding: 15px;
 }
 
