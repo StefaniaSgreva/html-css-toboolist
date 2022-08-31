@@ -4,75 +4,87 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- metterlo prima del nostro css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Toboolist</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header class="header">
-        <img class="logo" src="img/logo copia.png" alt="Toboolist logo">
-        <span class="logo-text">Toboolist</span>
+    <!-- <div id=wrapper> -->
+     <!-- HEADER -->
+    <header class="bg-white">
+        <img src="img/logo copia.png" alt="Toboolist logo">
+        <h1>Toboolist</h1>
     </header>
+       
+    <!-- BODY  -->
+    <main class="bg-white">
 
-    <main class="container">
-
-        <div class="add-buttons">
-            <button class="add-task">Add Task</button>
-            <button class="add-section">Add Section</button>
-            <hr>
+        <div class="top">
+            <button class=" btn btn-add">Add Task</button>
+            <button class="btn">Add Section</button>
         </div>
        
-        
-        <nav class="list">
-            <!-- NEW TASK -->
-            <div>
-                <div class="list">
-                <h2 class="list">&#9660;New Task</h2>
-                <span class="list">&#9989;Quarterly Newsletter</span>
-                <button class="editorial">Editorial</button>
-            </div>
-            </div>
-            
-           <!-- TODAY -->
-           <div class="today">
-                <div class="list">
-                    <h2 class="list">&#9660;Today</h2>
-                    <span class="list">&#9989; Recruiting blog post</span>
-                    <button class="editorial">Editorial</button>
-                </div>
-                <div class="list">
-                    <span class="list">&#9989; Mobile app luaunch</span>
-                    <button class="goals">Q1 Goals</button>
-                </div>
-                <div class="list">
-                    <span class="list">&#10060; Interview John H.</span>
-                    <button class="recruiting">Recruiting</button>
-                 </div>
-                <div class="list">
-                    <span class="list">&#9989; Summit update to mobile storefronts</span>
-                    <button class="mobile">Mobile</button>
-                </div>
-           </div>
-          
-            <!-- UPCOMING -->
-            <div class="upcoming">
-                <div class="list">
-                    <h2 class="list">&#9660;Upcoming</h2>
-                    <span class="list">&#10060;Schedule meeting with Alex</span>
-                </div>
-                <div class="list">
-                    <span class="list">&#9989; Homepage refresh</span>
-                    <button class="website">Website</button>
-                </div>
-                <div class="list">
-                    <span class="list">&#9989; Onboard new Sales team members</span>
-                    <button class="sales">Sales</button>
-                </div>
-                <div class="list">
-                    <span class="list">&#9989; Review editorial calendar</span>
-                    <button class="editorial">Editorial</button>
-                </div>
-            </div>
-            
+        <div class="todoist">
+           <ul>
+                <li>
+                    <span>&#9207</span>
+                    <h3>New Task</h3>
+                    <ul>
+                        <li>
+                            <!-- <i class="fa-solid fa-comments"></i> -->
+                            <span class="circle">&check;</span>
+                             <span>Quarterly newsletter</span>
+                            <span class="tag editorial">Editorial</span>
+                        </li>
+                    </ul>
+                </li>
+           </ul>
+
+           <ul>
+            <li>
+                <span>&#9207</span>
+                <h3>Today</h3>
+                <ul>
+                    <li>
+                        <span class="circle">&check;</span>
+                        <span>Recruiting blog post</span>
+                        <span class="tag editorial">Editorial</span>
+                    </li>
+                    <li>
+                        <span class="circle">&check;</span>
+                        <span>Mobile app lounch</span>
+                        <span class="tag goals">Q1 Goals</span>
+                    </li>
+                    <li>
+                        <span class="circle cross">&cross;</span>
+                        <span>Interview John H.</span>
+                        <span class="tag recruiting">Editorial</span>
+                    </li>
+                    <li>
+                        <span class="circle">&check;</span>
+                        <span>Summit update</span>
+                        <span class="tag sales">Editorial</span>
+                    </li>
+                </ul>
+            </li>
+       </ul>
+
+       <ul>
+        <li>
+            <span>&#9207</span>
+            <h3>Upcoming</h3>
+            <ul>
+                <li>
+                    <span class="circle">&check;</span>
+                    <span>Quarterly newsletter</span>
+                    <span class="tag editorial">Editorial</span>
+                </li>
+            </ul>
+        </li>
+   </ul>
+           
+        </div>
 
             
     </main>
